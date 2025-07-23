@@ -36,6 +36,16 @@ require("lazy").setup({
                     desc = "Buffer Local Keymaps (which-key)",
                 },
             },
+        },
+        {
+            "wnkz/monoglow.nvim",
+            lazy = false,
+            priority = 1000,
+            opts = {},
+        },
+        {
+            'nvim-lualine/lualine.nvim',
+            dependencies = { 'nvim-tree/nvim-web-devicons' }
         }
     },
     checker = { enabled = true },
